@@ -1,0 +1,126 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#header{
+    width: 100%;
+    height: 70px;
+    background-image: url('/images/design/header.png');
+    background-size:  cover;
+}
+
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: green;
+}
+.top_profile{
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.avatar_profile{
+    width: 175px;
+    height: 175px;
+    position: relative;
+}
+.reg_avatar{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.reg_avatar>div{
+    width: 100%;
+    text-align: center;
+}
+.upload_avatar{
+    position: relative;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    margin-left: -250px;
+    margin-top: -700px;
+    border: 1px solid black;
+    top: 100px;
+}
+
+.inner_square{
+    position: relative;
+}
+.square_photo{
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    border:2px solid blue;
+}
+.square{
+    width: 700px;
+    height: 700px;
+    border: 1px solid red;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    background-color: gray;
+}
+
+.upload{
+    width: 100%;
+}
+.inner_square{
+    width: 80%;
+}
+
+.all_photo{
+    width: 100%;
+}
+
+.all_photo>div{
+    width: 10%;
+    float: left;
+}
+.photo_wrapper{
+    width: 175px;
+    height: 175px;
+    overflow: hidden;
+    position: relative;
+}
+.all_photo_user{
+    width: 2000px;
+}
+.all_photo_user>div{
+    float: left;
+    width: 10%;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.inner_photo_block{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.show_photo{
+    position: absolute;
+    width: 900px;
+    height: 700px;
+    top: 100px;
+    padding: 20px 20px 120px 20px;
+    background-color: gray;
+    opacity: 0.7;
+    box-sizing: border-box;
+    display: none;
+}
+.block{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
